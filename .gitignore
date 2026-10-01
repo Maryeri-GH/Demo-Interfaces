@@ -1,0 +1,46 @@
+# Compilación de .NET
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# Archivos de usuario y configuración local de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code (conservar la configuración compartida del proyecto)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# JetBrains Rider / ReSharper
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Paquetes NuGet y archivos temporales
+*.nupkg
+*.snupkg
+.nuget/packages/
+project.lock.json
+project.fragment.lock.json
+
+# Cobertura y resultados de pruebas
+[Tt]est[Rr]esult*/
+[Bb]enchmarkDotNet.Artifacts/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
